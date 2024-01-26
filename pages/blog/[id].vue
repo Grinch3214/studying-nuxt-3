@@ -3,7 +3,7 @@
 		We are inside a blog!
 	</div>
 	<div>
-		Post id is {{ route.params.id }}
+		Post id is {{ route.params }}
 	</div>
 </template>
 
