@@ -1,7 +1,4 @@
 
-import type { Style } from '#build/components';
-
-import type { Style } from '#build/components';
 <template>
 	<nav class="font-mono">
 		<ul class="flex space-x-4">
