@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="p-3 bg-gray-50">
 		About page
 	</div>
 </template>
