@@ -9,6 +9,6 @@ definePageMeta({
   layout: 'another'
 })
 useHead({
-	title: 'About'
+	title: 'About page'
 })
 </script>
