@@ -13,6 +13,7 @@
 				<a :href="repository.html_url" target="_blank">
 					<div class="font-semibold"> {{ repository.name }} </div>
 				</a>
+				<p>{{ repository.tags_url }}</p>
 			</li>
 		</ul>
 	</section>
