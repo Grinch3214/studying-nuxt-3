@@ -14,6 +14,7 @@
 					<div class="font-semibold"> {{ repository.name }} </div>
 				</a>
 				<p>{{ repository.tags_url }}</p>
+				<p>{{ repository.description }}</p>
 			</li>
 		</ul>
 	</section>
