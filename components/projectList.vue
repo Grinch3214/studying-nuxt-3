@@ -8,13 +8,12 @@
 			<li
 				v-for="repository in data"
 				:key="repository.id"
-				class="border border-gray-200 rounded-sm p-4 hover:bg-gray-100 font-mono"
+				class="border border-gray-200 rounded-sm hover:bg-gray-100 font-mono overflow-hidden"
 			>
-				<a :href="repository.html_url" target="_blank">
+				<a :href="repository.html_url" target="_blank" class="block p-4">
 					<div class="font-semibold"> {{ repository.name }} </div>
+					<div>{{ repository.description }}</div>
 				</a>
-				<p>{{ repository.tags_url }}</p>
-				<p>{{ repository.description }}</p>
 			</li>
 		</ul>
 	</section>
