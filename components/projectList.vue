@@ -4,22 +4,22 @@
 	<section v-if="pending">Loading...</section>
 	<section v-else-if="error">Error... Try again!</section>
 	<section v-else>
+		<p class="text-right mb-3 text-blue-800 font-mono">repos: {{ data.length }}</p>
 		<ul class="grid grid-cols-1 gap-4">
 			<li
 				v-for="repository in data"
 				:key="repository.id"
-				class="border border-gray-200 rounded-sm hover:bg-gray-100 font-mono overflow-hidden"
+				class="border border-gray-200 hover:bg-gray-100 font-mono overflow-hidden rounded-md"
 			>
 				<a :href="repository.html_url" target="_blank" class="block p-4">
 					<div class="font-semibold"> {{ repository.name }} </div>
 					<div>{{ repository.description }}</div>
 				</a>
-				<p>test</p>
 			</li>
 		</ul>
 	</section>
 </template>
 
 <script setup>
-const { error, pending, data } = await useFetch('https://api.github.com/users/Grinch3214/repos')
+const { error, pending, data } = await useFetch('https://api.github.com/users/Grinch3214/repos?per_page=100&page=1')
 </script>
