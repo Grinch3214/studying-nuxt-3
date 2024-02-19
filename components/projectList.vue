@@ -22,4 +22,5 @@
 
 <script setup>
 const { error, pending, data } = await useFetch('https://api.github.com/users/Grinch3214/repos?per_page=100&page=1')
+console.log(pending)
 </script>
