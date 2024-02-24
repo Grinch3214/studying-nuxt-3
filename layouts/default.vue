@@ -2,7 +2,7 @@
 	<div class="container mx-auto max-w-2xl">
 		<header class="flex justify-between items-center mt-5">
 			<div>
-				<NuxtLink to="/" class="text-xl font-semibold p-2 hover:text-gray-700">Max Grinch</NuxtLink>
+				<NuxtLink to="/" class="text-xl font-semibold p-2 hover:text-gray-300">Max Grinch</NuxtLink>
 			</div>
 			<Menu />
 		</header>
