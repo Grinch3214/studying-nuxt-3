@@ -2,7 +2,7 @@
 <template>
 	<nav class="font-mono">
 		<ul class="flex space-x-4">
-			<li class="mb-2 text-pink-400">
+			<li class="mb-2 text-blue-400">
 				<NuxtLink to="/" class="link">Main</NuxtLink>
 			</li>
 			<li>
