@@ -16,5 +16,5 @@
 	const colorMode = useColorMode()
 
 	console.log(colorMode)
-	colorMode.preference = 'light'
+	// colorMode.preference = 'light'
 </script>
