@@ -23,6 +23,6 @@ useHead({
 <style>
 body {
 	font-family: 'Roboto', sans-serif;
-	@apply dark:bg-gray-900 bg-white text-gray-700 dark:text-gray-300;
+	@apply dark:bg-gray-900 bg-white text-gray-700 dark:text-gray-400;
 }
 </style>
