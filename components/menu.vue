@@ -1,9 +1,9 @@
 
 <template>
 	<nav class="font-mono">
-		<ul class="flex space-x-4">
-			<li class="mb-2 text-blue-400">
-				<NuxtLink to="/" class="link">Main</NuxtLink>
+		<ul class="flex space-x-4 items-center">
+			<li>
+				<NuxtLink to="/" class="link active">Main</NuxtLink>
 			</li>
 			<li>
 				<NuxtLink to="/about" class="link">About</NuxtLink>
@@ -17,6 +17,9 @@
 
 <style scoped>
 	.link {
-		@apply p-1 hover:bg-gray-200;
+		@apply p-1 hover:text-gray-500;
+	}
+	.link.active {
+		@apply text-blue-400;
 	}
 </style>
