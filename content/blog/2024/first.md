@@ -1,3 +1,19 @@
+---
+title: Hello Content v2!
+description: The writing experience for Nuxt 3
+category: announcement
+head:
+  meta:
+    - name: "keywords"
+      content: "nuxt, vue, content"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "NuxtLabs"
+    - name: "copyright"
+      content: "© 2022 NuxtLabs"
+---
+
 # First post on our website
 
 ## Introduction
