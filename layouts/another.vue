@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<div>Another layout</div>
-		<slot />
-	</div>
+  <div class="container py-5">
+    <slot />
+  </div>
 </template>
