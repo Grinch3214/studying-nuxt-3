@@ -40,6 +40,7 @@ Todo list:
 
 - [ ] Buy groceries
 - [ ] Pay bills
+- [ ] Test third list
 
 Tables:
 | Name | Surname |
