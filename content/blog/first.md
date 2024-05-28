@@ -11,7 +11,7 @@ head:
     - name: "author"
       content: "NuxtLabs"
     - name: "copyright"
-      content: "© 2022 NuxtLabs"
+      content: "© 2024 NuxtLabs"
 ---
 
 # First post on our website
