@@ -24,6 +24,7 @@ useHead({
 <style>
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   @apply dark:bg-gray-900 bg-white text-gray-700 dark:text-gray-500;
 }
 </style>
