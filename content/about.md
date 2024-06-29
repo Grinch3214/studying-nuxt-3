@@ -15,4 +15,7 @@ Here's a list of everyday used software and hardware:
 - ASUS ExpertBook
 - VSCode
 - Chrome
+- Opera
+- Mozila
 - Git
+- GitHub
