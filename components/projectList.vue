@@ -23,7 +23,8 @@
 </template>
 
 <script setup>
+const URL = "https://api.github.com/users/Grinch3214";
 const { error, pending, data } = await useFetch(
-  "https://api.github.com/users/Grinch3214/repos?per_page=100&page=1"
+  `${URL}/repos?per_page=100&page=1`
 );
 </script>
