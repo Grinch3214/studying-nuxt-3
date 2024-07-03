@@ -14,8 +14,8 @@
         class="border border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
         <a :href="repository.html_url" target="_blank" class="block p-4">
-          <div class="font-semibold">{{ repository.name }}</div>
-          <div>{{ repository.description }}</div>
+          <p class="font-semibold">{{ repository.name }}</p>
+          <p>{{ repository.description }}</p>
         </a>
       </li>
     </ul>
