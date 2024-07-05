@@ -1,5 +1,5 @@
 <template>
-  <p class="mb-2 text-xl py-2 text-red-800">GitHub projects!</p>
+  <h2 class="mb-2 text-xl py-2 text-red-800">GitHub projects!</h2>
 
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
