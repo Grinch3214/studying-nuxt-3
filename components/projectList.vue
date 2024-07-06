@@ -1,5 +1,5 @@
 <template>
-  <p class="mb-2 text-xl py-2 text-red-800">GitHub projects!</p>
+  <h2 class="mb-2 text-xl py-2 text-red-800">GitHub projects!</h2>
 
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
@@ -7,7 +7,7 @@
     <p class="text-right mb-2 text-blue-700 font-mono">
       repos: {{ data.length }}
     </p>
-    <ul class="grid grid-cols-1 gap-4">
+    <ul class="grid grid-cols-1 gap-2">
       <li
         v-for="repository in data"
         :key="repository.id"
