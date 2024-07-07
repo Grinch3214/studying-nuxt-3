@@ -5,7 +5,7 @@
   <section v-else-if="error">Error... Try again!</section>
   <section v-else>
     <p class="text-right mb-2 text-blue-700 font-mono">
-      repos: {{ data.length }}
+      Repos: {{ data.length }}
     </p>
     <ul class="grid grid-cols-1 gap-2">
       <li
@@ -27,4 +27,6 @@ const URL = "https://api.github.com/users/Grinch3214";
 const { error, pending, data } = await useFetch(
   `${URL}/repos?per_page=100&page=1`
 );
+
+console.log(data);
 </script>
