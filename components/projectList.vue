@@ -28,5 +28,4 @@ const { error, pending, data } = await useFetch(
   `${URL}/repos?per_page=100&page=1`
 );
 
-console.log(data);
 </script>
