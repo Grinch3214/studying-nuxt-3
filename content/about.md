@@ -12,7 +12,6 @@ I'm Max, I'm a developer. I'm 33, living in Ukraine. I'm love gym.
 
 Here's a list of everyday used software and hardware:
 
-- ASUS ExpertBook
 - VSCode
 - Chrome
 - Opera
