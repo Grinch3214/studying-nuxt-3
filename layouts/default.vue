@@ -9,7 +9,7 @@
             >Max</NuxtLink
           >
         </div>
-        <Menu class="ml-auto" />
+        <Menu class="ml-auto my-2" />
         <ColorModeSelector />
       </div>
     </header>
