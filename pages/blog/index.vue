@@ -1,5 +1,6 @@
 <template>
   <div>All posts here</div>
+  <p>{{ data }}</p>
 </template>
 
 <script setup>
