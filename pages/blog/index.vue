@@ -1,6 +1,7 @@
 <template>
   <div>All posts here</div>
-  <p>{{ data }}</p>
+  <p>TEST page</p>
+  <div v-for="item in data">{{ item.title }}</div>
 </template>
 
 <script setup>
