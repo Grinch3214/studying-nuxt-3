@@ -1,5 +1,5 @@
 <template>
-  <div>Hello from the main page (test)</div>
+  <div>Hello from the main page</div>
 </template>
 
 <script setup>
