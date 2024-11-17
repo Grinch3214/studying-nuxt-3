@@ -4,7 +4,7 @@
 
 <script setup>
 useSeoMeta({
-  title: "Main page",
+  title: "Main page test",
   ogTitle: "Main Page",
   description: "This is the main page",
   ogDescription: "This is my amazing site, let me tell you all about it.",
