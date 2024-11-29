@@ -18,5 +18,6 @@ Here's a list of everyday used software and hardware:
 - Mozila
 - Git
 - GitHub
+- gitlab
 
 Test text here
