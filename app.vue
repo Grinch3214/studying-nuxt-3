@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-// !TODO: Need to recreate
 useHead({
   link: [
     {
