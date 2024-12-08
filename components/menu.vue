@@ -5,8 +5,9 @@
         <NuxtLink
           :to="link.path"
           class="hover:text-zinc-400 transition-opacity"
-          >{{ link.name }}</NuxtLink
         >
+          {{ link.name }}
+        </NuxtLink>
       </li>
     </ul>
   </nav>
