@@ -14,7 +14,7 @@
         class="border border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
         <a :href="repository.html_url" target="_blank" class="block p-5">
-          <p class="font-semibold">{{ repository.name }}</p>
+          <p class="font-medium">{{ repository.name }}</p>
           <p>{{ repository.description }}</p>
         </a>
       </li>
@@ -24,6 +24,7 @@
 
 <script setup>
 const URL = "https://api.github.com/users/Grinch3214";
+
 const { error, pending, data } = await useFetch(
   `${URL}/repos?per_page=100&page=1`
 );
