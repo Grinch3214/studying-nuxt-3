@@ -16,7 +16,6 @@
         <a :href="repository.html_url" target="_blank" class="block p-5">
           <p class="font-medium">{{ repository.name }}</p>
           <p>{{ repository.description }}</p>
-          <p>{{ repository.section }}</p>
         </a>
       </li>
     </ul>
