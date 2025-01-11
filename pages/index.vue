@@ -1,5 +1,5 @@
 <template>
-  <div>Hello from the main page</div>
+  <h2>Hello from the main page</h2>
   <p>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ex at
     vero fugiat cumque quidem veritatis quod vel, iure quis voluptatem a, error
