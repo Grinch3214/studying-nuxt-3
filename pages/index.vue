@@ -2,11 +2,6 @@
   <div>
     <h2>Hello from the main page</h2>
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ex at
-      vero fugiat cumque quidem veritatis quod vel, iure quis voluptatem a,
-      error esse sunt eos. Fugiat a necessitatibus repellat.
-    </p>
-    <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum
       soluta animi iste sunt atque ut, qui quaerat deserunt! Vel illo sapiente
       distinctio iste vitae delectus, consequatur cumque reiciendis dignissimos.
