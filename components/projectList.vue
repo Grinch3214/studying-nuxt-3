@@ -11,7 +11,7 @@
       <li
         v-for="repository in data"
         :key="repository.id"
-        class="border border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white font-mono overflow-hidden rounded-md"
+        class="border border-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
         <a :href="repository.html_url" target="_blank" class="block p-5">
           <p class="font-medium">{{ repository.name }}</p>
