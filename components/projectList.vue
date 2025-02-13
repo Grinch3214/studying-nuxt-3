@@ -13,7 +13,7 @@
         :key="repository.id"
         class="border border-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
-        <a :href="repository.html_url" target="_blank" class="block p-5">
+        <a :href="repository.html_url" target="_blank" class="block p-4">
           <p class="font-medium">{{ repository.name }}</p>
           <p>{{ repository.description }}</p>
         </a>
