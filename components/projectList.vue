@@ -1,5 +1,5 @@
 <template>
-  <h2 class="mb-2 text-xl py-2 text-red-800">GitHub projects!</h2>
+  <h2 class="mb-2 text-xl py-2 text-red-600">GitHub projects!</h2>
 
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
@@ -11,11 +11,11 @@
       <li
         v-for="repository in data"
         :key="repository.id"
-        class="border border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white font-mono overflow-hidden rounded-md"
+        class="border border-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
-        <a :href="repository.html_url" target="_blank" class="block p-5">
+        <a :href="repository.html_url" target="_blank" class="block p-4">
           <p class="font-medium">{{ repository.name }}</p>
-          <p>{{ repository.description }}</p>
+          <p class="text-sm">{{ repository.description }}</p>
         </a>
       </li>
     </ul>
