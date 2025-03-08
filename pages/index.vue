@@ -1,11 +1,6 @@
 <template>
   <div>
     <h2>Hello from the main page</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum
-      soluta animi iste sunt atque ut, qui quaerat deserunt! Vel illo sapiente
-      distinctio iste vitae delectus, consequatur cumque reiciendis dignissimos.
-    </p>
   </div>
 </template>
 
