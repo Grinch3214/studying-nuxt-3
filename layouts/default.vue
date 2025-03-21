@@ -5,7 +5,7 @@
         <div>
           <NuxtLink
             to="/"
-            class="text-xl font-bold py-2 px-4 hover:text-gray-500"
+            class="text-xl font-bold py-2 px-4 hover:text-gray-300"
             >Max</NuxtLink
           >
         </div>
