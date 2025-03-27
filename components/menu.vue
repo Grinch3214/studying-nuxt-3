@@ -15,14 +15,14 @@
 
 <script setup lang="ts">
 interface Links {
-  id: number;
-  name: string;
-  path: string;
+  id?: number;
+  name?: string;
+  path?: string;
 }
 const links = [
   { id: 1, name: "Main", path: "/" },
   { id: 2, name: "About", path: "/about" },
   { id: 3, name: "Projects", path: "/projects" },
   { id: 4, name: "Blog", path: "/blog" },
-];
+] as Links[];
 </script>
