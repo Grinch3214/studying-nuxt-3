@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-interface Links {
+interface Link {
   id?: number;
   name?: string;
   path?: string;
@@ -24,5 +24,5 @@ const links = [
   { id: 2, name: "About", path: "/about" },
   { id: 3, name: "Projects", path: "/projects" },
   { id: 4, name: "Blog", path: "/blog" },
-] as Links[];
+] as Link[];
 </script>
