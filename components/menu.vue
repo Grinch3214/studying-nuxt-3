@@ -13,11 +13,19 @@
   </nav>
 </template>
 
-<script setup>
-const links = [
+<script setup lang="ts">
+import { ref } from "vue";
+
+interface Link {
+  id: number;
+  name: string;
+  path: string;
+}
+
+const links = ref<Link[]>([
   { id: 1, name: "Main", path: "/" },
   { id: 2, name: "About", path: "/about" },
   { id: 3, name: "Projects", path: "/projects" },
   { id: 4, name: "Blog", path: "/blog" },
-];
+]);
 </script>
