@@ -4,7 +4,7 @@
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
   <section v-else>
-    <p class="text-right mb-2 text-blue-900 font-mono">
+    <p class="text-right mb-2 text-blue-800 font-mono">
       Repos: {{ data.length }}
     </p>
     <ul class="grid grid-cols-1 gap-4">
