@@ -15,7 +15,7 @@ useSeoMeta({
   title: "Main page",
   ogTitle: "Main Page",
   description: "This is the main nuxt page",
-  ogDescription: "This is my  site, let me tell you all about it.",
+  ogDescription: "This is my nuxt test site, let me tell you all about it.",
   ogImage: "https://example.com/image.png",
   twitterCard: "summary_large_image",
 });
