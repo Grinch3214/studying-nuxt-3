@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-center">
     <h2>Hello from the main page</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam
