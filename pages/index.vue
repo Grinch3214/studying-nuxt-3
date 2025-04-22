@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-center">
     <h2>Hello from the main page</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam
@@ -15,7 +15,7 @@ useSeoMeta({
   title: "Main page",
   ogTitle: "Main Page",
   description: "This is the main nuxt page",
-  ogDescription: "This is my  site, let me tell you all about it.",
+  ogDescription: "This is my nuxt test site, let me tell you all about it.",
   ogImage: "https://example.com/image.png",
   twitterCard: "summary_large_image",
 });
