@@ -4,7 +4,7 @@
       <li v-for="link in links" :key="link.id">
         <NuxtLink
           :to="link.path"
-          class="hover:text-zinc-400 transition-opacity"
+          class="hover:text-zinc-300 transition-opacity"
         >
           {{ link.name }}
         </NuxtLink>
