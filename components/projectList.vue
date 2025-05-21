@@ -7,7 +7,7 @@
     <p class="text-right mb-2 text-blue-800 font-mono">
       Repos: {{ data.length }}
     </p>
-    <ul class="grid grid-cols-1 gap-4">
+    <ul class="grid grid-cols-1 gap-2">
       <li
         v-for="repository in data"
         :key="repository.id"
