@@ -9,9 +9,9 @@ head:
     - name: "robots"
       content: "index, follow"
     - name: "author"
-      content: "NuxtLabs"
+      content: "Nuxt Test"
     - name: "copyright"
-      content: "© 2024 NuxtLabs"
+      content: "© 2025 Nuxt Test"
 ---
 
 # First post on our website
