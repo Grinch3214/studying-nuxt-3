@@ -38,7 +38,7 @@ const { createApp } = Vue;
 const app = createApp({
   data() {
     return {
-      message: "Hello Vue 3!",
+      message: "Test vue 3 mount",
     };
   },
 });
