@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-w-[1000px]">
+  <div class="container mx-auto max-w-[1200px]">
     <header class="flex justify-between items-center mt-5">
       <div class="flex items-center gap-4 w-full">
         <div>
@@ -9,7 +9,7 @@
             >Max</NuxtLink
           >
         </div>
-        <Menu class="ml-auto my-2" />
+        <Menu class="ml-auto my-3" />
         <ColorModeSelector />
       </div>
     </header>

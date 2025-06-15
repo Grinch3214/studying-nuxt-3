@@ -9,9 +9,9 @@ head:
     - name: "robots"
       content: "index, follow"
     - name: "author"
-      content: "NuxtLabs"
+      content: "Nuxt Test"
     - name: "copyright"
-      content: "© 2024 NuxtLabs"
+      content: "© 2025 Nuxt Test"
 ---
 
 # First post on our website
@@ -34,7 +34,8 @@ Unordered lists:
 Numbered lists:
 
 1.  Pay taxes
-2.  Die
+2.  Test
+3.  Test 3
 
 Todo list:
 
