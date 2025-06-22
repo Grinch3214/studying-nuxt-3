@@ -1,5 +1,5 @@
 <template>
-  <h2>All posts here</h2>
+  <h2>All posts here (test)</h2>
   <div v-for="item in data">{{ item.title }}</div>
 </template>
 
