@@ -10,6 +10,8 @@
 
 <script setup>
 const route = useRoute();
+const router = useRouter();
 
 console.log(route);
+console.log(router);
 </script>
