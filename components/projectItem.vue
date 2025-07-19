@@ -4,3 +4,5 @@
     <p class="text-sm">{{ repository.description }}</p>
   </a>
 </template>
+
+<script setup></script>
