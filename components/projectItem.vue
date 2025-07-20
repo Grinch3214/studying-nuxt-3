@@ -5,4 +5,8 @@
   </a>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+const props = defineProps<{
+  repository: any;
+}>();
+</script>
