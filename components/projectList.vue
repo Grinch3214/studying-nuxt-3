@@ -4,9 +4,9 @@
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
   <section v-else>
-    <p class="text-right mb-2 text-blue-800 font-mono">
+    <h3 class="text-right mb-2 text-blue-800 font-mono">
       Repos: {{ data.length }}
-    </p>
+    </h3>
     <ul class="grid grid-cols-1 gap-2">
       <li
         v-for="repository in data"
