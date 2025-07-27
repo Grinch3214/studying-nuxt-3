@@ -4,19 +4,16 @@
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
   <section v-else>
-    <p class="text-right mb-2 text-blue-800 font-mono">
+    <h3 class="text-right mb-2 text-blue-800 font-mono">
       Repos: {{ data.length }}
-    </p>
+    </h3>
     <ul class="grid grid-cols-1 gap-2">
       <li
         v-for="repository in data"
         :key="repository.id"
         class="border border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
-        <a :href="repository.html_url" target="_blank" class="block p-4">
-          <p class="font-medium text-base">{{ repository.name }}</p>
-          <p class="text-sm">{{ repository.description }}</p>
-        </a>
+        <projectItem :repository="repository" class="block p-2.5" />
       </li>
     </ul>
   </section>
