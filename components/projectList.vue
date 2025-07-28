@@ -13,7 +13,11 @@
         :key="repository.id"
         class="border border-gray-500 hover:bg-gray-200 dark:hover:bg-gray-600 dark:hover:text-white font-mono overflow-hidden rounded-md"
       >
-        <projectItem :repository="repository" class="block p-2.5" />
+        <projectItem
+          :repository="repository"
+          :id="repository.id"
+          class="block p-2.5"
+        />
       </li>
     </ul>
   </section>
