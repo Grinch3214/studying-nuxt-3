@@ -4,7 +4,7 @@
   <section v-if="pending">Loading...</section>
   <section v-else-if="error">Error... Try again!</section>
   <section v-else>
-    <h3 class="text-right mb-2 text-blue-800 font-mono">
+    <h3 class="text-right mb-2 text-blue-600 font-mono">
       Repos: {{ data.length }}
     </h3>
     <ul class="grid grid-cols-1 gap-2">
@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-const URL = "https://api.github.com/users/Grinch3214";
+const URL = 'https://api.github.com/users/Grinch3214';
 
 const { error, pending, data } = await useFetch(
   `${URL}/repos?per_page=100&page=1`
