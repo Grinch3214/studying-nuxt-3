@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <main class="text-center">
     <h2>Hello from the main page</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam
@@ -7,16 +7,16 @@
       dolor quasi corporis quidem iste aspernatur, perferendis reiciendis
       explicabo tempore.
     </p>
-  </div>
+  </main>
 </template>
 
 <script setup>
 useSeoMeta({
-  title: "Main page",
-  ogTitle: "Main Page",
-  description: "This is the main nuxt page",
-  ogDescription: "This is my nuxt test site, let me tell you all about it.",
-  ogImage: "https://example.com/image.png",
-  twitterCard: "summary_large_image",
+  title: 'Main page',
+  ogTitle: 'Main Page',
+  description: 'This is the main nuxt page',
+  ogDescription: 'This is my nuxt test site, let me tell you all about it.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
 });
 </script>
