@@ -1,12 +1,6 @@
 <template>
   <main class="text-center">
     <h2>Hello from the main page</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam
-      consequuntur quaerat, est aperiam quis quos eos maiores? Repellat dolores
-      dolor quasi corporis quidem iste aspernatur, perferendis reiciendis
-      explicabo tempore.
-    </p>
   </main>
 </template>
 
