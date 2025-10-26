@@ -6,7 +6,13 @@
 </template>
 
 <script setup lang="ts">
+interface Repository {
+  html_url: string;
+  name: string;
+  description: string;
+}
+
 const props = defineProps<{
-  repository: any;
+  repository: Repository;
 }>();
 </script>
