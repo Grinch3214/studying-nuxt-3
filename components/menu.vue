@@ -2,10 +2,7 @@
   <nav>
     <ul class="flex space-x-4 items-center">
       <li v-for="link in links" :key="link.id">
-        <NuxtLink
-          :to="link.path"
-          class="hover:text-zinc-300 transition-opacity"
-        >
+        <NuxtLink :to="link.path" class="hover:text-zinc-300 transition-all">
           {{ link.name }}
         </NuxtLink>
       </li>
