@@ -11,7 +11,7 @@
         <ColorModeSelector />
       </div>
     </header>
-    <main class="p-2 mt-2">
+    <main class="p-2 mt-4">
       <slot />
     </main>
   </div>
