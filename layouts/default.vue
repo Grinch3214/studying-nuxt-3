@@ -5,7 +5,7 @@
         <NuxtLink
           to="/"
           class="text-2xl font-medium py-2 px-4 hover:text-gray-300"
-          >Maxim</NuxtLink
+          >Max Gr</NuxtLink
         >
         <Menu class="ml-auto my-2" />
         <ColorModeSelector />
