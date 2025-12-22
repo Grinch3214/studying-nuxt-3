@@ -1,6 +1,6 @@
 <template>
   <main class="text-center">
-    <h2>Hello from the main page</h2>
+    <h2 class="text-2xl font-medium">Hello from the main page</h2>
   </main>
 </template>
 
