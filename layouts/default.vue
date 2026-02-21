@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto max-w-[1200px]">
+  <div class="container mx-auto max-w-[1232px] px-4">
     <header class="flex justify-between items-center mt-5">
       <div class="flex items-center gap-4 w-full">
         <NuxtLink
