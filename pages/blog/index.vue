@@ -1,6 +1,6 @@
 <template>
   <h2 class="font-semibold text-lg">All posts here</h2>
-  <div class="grid gap-3" v-for="item in data">{{ item.title }}</div>
+  <div class="flex flex-col gap-3" v-for="item in data">{{ item.title }}</div>
 </template>
 
 <script setup>
