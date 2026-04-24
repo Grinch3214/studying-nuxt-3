@@ -5,7 +5,7 @@
   <section v-else-if="error">Error... Try again!</section>
   <section v-else>
     <h3 class="text-right mb-2 text-blue-500 font-mono">
-      Repos: <span class="text-blue-800">{{ data.length }}</span>
+      Repos: <span class="text-blue-700">{{ data.length }}</span>
     </h3>
     <ul class="grid grid-cols-1 gap-2">
       <li
