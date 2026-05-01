@@ -16,8 +16,6 @@ interface Link {
   name: string;
   path: string;
 }
-// no time
-// no time for develop
 
 const links = [
   { id: 1, name: 'Main', path: '/' },
