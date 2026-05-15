@@ -4,6 +4,5 @@
 </template>
 
 <script setup>
-// No time
 const { data } = await useAsyncData('blog', () => queryContent('/').find());
 </script>
