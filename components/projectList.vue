@@ -24,6 +24,7 @@
 </template>
 
 <script setup>
+// no tm :(
 const URL = 'https://api.github.com/users/Grinch3214';
 
 const { error, pending, data } = await useFetch(
