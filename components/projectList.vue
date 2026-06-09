@@ -25,7 +25,6 @@
 
 <script setup>
 const URL = 'https://api.github.com/users/Grinch3214';
-// no time for free coding
 const { error, pending, data } = await useFetch(
   `${URL}/repos?per_page=100&page=1`,
 );
