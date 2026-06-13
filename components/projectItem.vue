@@ -11,7 +11,6 @@ interface Repository {
   name: string;
   description: string;
 }
-// no time
 
 const props = defineProps<{
   repository: Repository;
