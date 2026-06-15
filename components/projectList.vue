@@ -16,7 +16,7 @@
         <projectItem
           :repository="repository"
           :id="repository.id"
-          class="block p-2"
+          class="block p-3"
         />
       </li>
     </ul>
