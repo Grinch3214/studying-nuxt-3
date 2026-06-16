@@ -2,7 +2,7 @@
   <h2 class="mb-2 text-xl py-2 text-red-600">GitHub projects!</h2>
 
   <section v-if="pending">Loading...</section>
-  <section v-else-if="error">Error... Try again!</section>
+  <section v-else-if="error">Error...</section>
   <section v-else>
     <h3 class="text-right mb-2 text-blue-500 font-mono">
       Repos: <span class="text-blue-700">{{ data.length }}</span>
