@@ -2,7 +2,7 @@
   <h2 class="mb-2 text-xl py-2 text-red-600">GitHub projects!</h2>
 
   <section v-if="pending">Loading...</section>
-  <section v-else-if="error">Error... Try again!</section>
+  <section v-else-if="error">Error...</section>
   <section v-else>
     <h3 class="text-right mb-2 text-blue-500 font-mono">
       Repos: <span class="text-blue-700">{{ data.length }}</span>
@@ -16,7 +16,7 @@
         <projectItem
           :repository="repository"
           :id="repository.id"
-          class="block p-2"
+          class="block p-3"
         />
       </li>
     </ul>
@@ -29,3 +29,5 @@ const { error, pending, data } = await useFetch(
   `${URL}/repos?per_page=100&page=1`,
 );
 </script>
+
+<style scoped lang="scss"></style>
