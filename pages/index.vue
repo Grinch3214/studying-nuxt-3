@@ -5,7 +5,6 @@
 </template>
 
 <script setup>
-// big work time :(
 useSeoMeta({
   title: 'Main page',
   ogTitle: 'Main Page',
