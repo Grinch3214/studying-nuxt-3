@@ -5,5 +5,4 @@
 
 <script setup>
 const { data } = await useAsyncData('blog', () => queryContent('/').find());
-// again and again no time :(
 </script>
