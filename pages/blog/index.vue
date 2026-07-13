@@ -4,6 +4,5 @@
 </template>
 
 <script setup>
-// time >_<
 const { data } = await useAsyncData('blog', () => queryContent('/').find());
 </script>
