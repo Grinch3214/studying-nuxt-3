@@ -14,5 +14,4 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 });
 // no time, no code :(
-// no time, no code :(
 </script>
