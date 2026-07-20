@@ -12,5 +12,5 @@ useSeoMeta({
   ogDescription: 'This is my nuxt test site, let me tell you all about it.',
   ogImage: 'https://example.com/image.png',
   twitterCard: 'summary_large_image',
-});
+}); 
 </script>
