@@ -14,6 +14,6 @@ interface Repository {
 
 const props = defineProps<{
   repository: Repository;
-  // time -_-
+  // time х2 -_-
 }>();
 </script>
