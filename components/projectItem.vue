@@ -8,7 +8,6 @@
 <script setup lang="ts">
 // no tm -_-
 // no tm x2 -_-
-// no tm x3 -_-
 interface Repository {
   html_url: string;
   name: string;
