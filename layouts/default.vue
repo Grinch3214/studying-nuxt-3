@@ -5,7 +5,7 @@
         <NuxtLink
           to="/"
           class="text-2xl font-bold py-2 px-4 hover:text-gray-200"
-          >Max Grinch</NuxtLink
+          >Max</NuxtLink
         >
         <Menu class="ml-auto my-3" />
         <ColorModeSelector />
